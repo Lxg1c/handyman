@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+	:root {
+		scroll-behavior: smooth;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 1024px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 568px;
+	}
+}
+
+@media (max-width: 564px) {
+	.container {
+		max-width: 100%;
+		margin: 0 15px;
+	}
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--montserrat-family: 'Montserrat', sans-serif;
+	--gabrito-family: 'Gabarito', sans-serif;
+	--btn-bg: #0033e7;
+	--gray-color: #555555;
+	--lightgray-color: #e0e0e0;
+	--white-color: #ffffff;
+	--black-color: #000;
+}
+
+.text {
+	font-family: var(--montserrat-family);
+	font-weight: 400;
+}
+
+.title {
+	font-family: var(--montserrat-family);
+	font-weight: 700;
+}
+
+.title-1 {
+	font-size: 64px;
+	font-weight: 800;
+	line-height: 1.23;
+	letter-spacing: -2.5px;
+	color: var(--title-1-color);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.title-2 {
+	font-size: 22px;
+	color: var(--black-color);
+}
+
+.title-3 {
+	font-size: 30px;
+	font-family: var(--gabrito-family);
+	text-transform: uppercase;
+	line-height: 1.23;
+}
+
+.title-4 {
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.23;
+	color: var(--black-color);
+}
+
+.text-1 {
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--black-color);
+}
+
+.text-2 {
+	color: var(--black-color);
+	font-size: 18px;
+	opacity: 0.8;
+}
+
+.text-3 {
+	font-size: 15px;
+	line-height: 1.5;
+	color: var(--black-color);
+}
+
+.subtext {
+	color: #555555;
+	opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+	.title-1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-weight: 600;
+	}
+
+	.title-1 {
+		font-size: 32px;
+	}
+}
